@@ -1,0 +1,17 @@
+{
+  "name": "anti-xiangqi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Antichess on the xiangqi board: the rules, every engine game, every proof, and a checker that replays the proofs against the rules.",
+  "type": "module",
+  "scripts": {
+    "verify": "tsx verify.ts data/proofs-antichess-100k.json data/proofs-antichess-1m.json data/proofs-codrus-100k.json data/proofs-losers-100k.json",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "license": "AGPL-3.0-only"
+}

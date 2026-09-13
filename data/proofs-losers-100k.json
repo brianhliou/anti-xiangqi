@@ -1,0 +1,1985 @@
+{
+ "sweep": "exits-losers-100k.json",
+ "rules": [
+  "flavour=losers",
+  "facing=file"
+ ],
+ "budget": 1000000,
+ "maxDepth": 60,
+ "outcomes": [
+  {
+   "leaf": 1,
+   "exitPly": 6,
+   "opening": "b3b10 h8h1 b10d10 h1f1 e1f1 e10d10",
+   "attacker": "black",
+   "result": "unknown",
+   "why": "budget of 1000000 nodes exhausted (pn 1217, dn 152)",
+   "nodes": 1000005
+  },
+  {
+   "leaf": 2,
+   "exitPly": 6,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1i1",
+   "attacker": "red",
+   "result": "proven",
+   "why": "proof tree of 67 nodes",
+   "nodes": 208965,
+   "proofSize": 67,
+   "line": [
+    "e1e2",
+    "e10f10",
+    "a1a2",
+    "i1d1",
+    "g1i3",
+    "d1b1",
+    "i3g1",
+    "b1g1",
+    "a2a1",
+    "g1a1",
+    "c1a3",
+    "a1a4",
+    "e2d2",
+    "a4e4",
+    "a3c1",
+    "e4i4",
+    "h3h8",
+    "i4c4",
+    "h8c8",
+    "c4c8",
+    "g4g5",
+    "c8c1",
+    "g5g6",
+    "g7g6"
+   ],
+   "proof": {
+    "toMove": "attacker",
+    "children": [
+     {
+      "move": "e1e2",
+      "replies": [
+       {
+        "move": "i1d1",
+        "replies": [
+         {
+          "move": "f10h10",
+          "replies": [
+           {
+            "move": "i10h10",
+            "replies": [
+             {
+              "move": "a1a2",
+              "replies": [
+               {
+                "move": "d1b1",
+                "replies": [
+                 {
+                  "move": "c1e3",
+                  "replies": [
+                   {
+                    "move": "h10h3",
+                    "replies": [
+                     {
+                      "move": "e2f2",
+                      "replies": [
+                       {
+                        "move": "h3e3",
+                        "replies": [
+                         {
+                          "move": "a4a5",
+                          "replies": [
+                           {
+                            "move": "e3e4",
+                            "replies": [
+                             {
+                              "move": "c4c5",
+                              "replies": [
+                               {
+                                "move": "e4g4",
+                                "replies": [
+                                 {
+                                  "move": "g1i3",
+                                  "replies": [
+                                   {
+                                    "move": "g4i4",
+                                    "replies": [
+                                     {
+                                      "move": "a2c2",
+                                      "replies": [
+                                       {
+                                        "move": "i4i3",
+                                        "replies": [
+                                         {
+                                          "move": "c2c3",
+                                          "replies": [
+                                           {
+                                            "move": "i3c3",
+                                            "replies": [
+                                             {
+                                              "move": "f2e2",
+                                              "replies": [
+                                               {
+                                                "move": "c3c5",
+                                                "replies": [
+                                                 {
+                                                  "move": "e2f2",
+                                                  "replies": [
+                                                   {
+                                                    "move": "c5a5",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               },
+               {
+                "move": "h10h3",
+                "replies": [
+                 {
+                  "move": "a2c2",
+                  "replies": [
+                   {
+                    "move": "d1b1",
+                    "replies": [
+                     {
+                      "move": "c1a3",
+                      "replies": [
+                       {
+                        "move": "h3a3",
+                        "replies": [
+                         {
+                          "move": "c2d2",
+                          "replies": [
+                           {
+                            "move": "a3a4",
+                            "replies": [
+                             {
+                              "move": "g1i3",
+                              "replies": [
+                               {
+                                "move": "a4c4",
+                                "replies": [
+                                 {
+                                  "move": "d2b2",
+                                  "replies": [
+                                   {
+                                    "move": "c4e4",
+                                    "replies": [
+                                     {
+                                      "move": "e2f2",
+                                      "replies": [
+                                       {
+                                        "move": "e4g4",
+                                        "replies": [
+                                         {
+                                          "move": "b2b8",
+                                          "replies": [
+                                           {
+                                            "move": "g4i4",
+                                            "replies": [
+                                             {
+                                              "move": "b8b1",
+                                              "replies": [
+                                               {
+                                                "move": "i4i3",
+                                                "replies": [
+                                                 {
+                                                  "move": "b1i1",
+                                                  "replies": [
+                                                   {
+                                                    "move": "i3i1",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "move": "e10f10",
+        "replies": [
+         {
+          "move": "a1a2",
+          "replies": [
+           {
+            "move": "i1d1",
+            "replies": [
+             {
+              "move": "g1i3",
+              "replies": [
+               {
+                "move": "d1b1",
+                "replies": [
+                 {
+                  "move": "i3g1",
+                  "replies": [
+                   {
+                    "move": "b1g1",
+                    "replies": [
+                     {
+                      "move": "a2a1",
+                      "replies": [
+                       {
+                        "move": "g1a1",
+                        "replies": [
+                         {
+                          "move": "c1a3",
+                          "replies": [
+                           {
+                            "move": "a1a4",
+                            "replies": [
+                             {
+                              "move": "e2d2",
+                              "replies": [
+                               {
+                                "move": "a4e4",
+                                "replies": [
+                                 {
+                                  "move": "a3c1",
+                                  "replies": [
+                                   {
+                                    "move": "e4i4",
+                                    "replies": [
+                                     {
+                                      "move": "h3h8",
+                                      "replies": [
+                                       {
+                                        "move": "i4c4",
+                                        "replies": [
+                                         {
+                                          "move": "h8c8",
+                                          "replies": [
+                                           {
+                                            "move": "c4c8",
+                                            "replies": [
+                                             {
+                                              "move": "g4g5",
+                                              "replies": [
+                                               {
+                                                "move": "c8c1",
+                                                "replies": [
+                                                 {
+                                                  "move": "g5g6",
+                                                  "replies": [
+                                                   {
+                                                    "move": "g7g6",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "leaf": 3,
+   "exitPly": 8,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 e1d1 e10f10",
+   "attacker": "red",
+   "result": "unknown",
+   "why": "budget of 1000000 nodes exhausted (pn 156, dn 1224)",
+   "nodes": 1000009
+  },
+  {
+   "leaf": 4,
+   "exitPly": 10,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10h10 i10h10 e1d1 h10h3",
+   "attacker": "red",
+   "result": "proven",
+   "why": "proof tree of 37 nodes",
+   "nodes": 2215,
+   "proofSize": 37,
+   "line": [
+    "i1h1",
+    "h3h1",
+    "a1a2",
+    "h1g1",
+    "d1d2",
+    "g1g4",
+    "i4i5",
+    "g4e4",
+    "b1c3",
+    "e4c4",
+    "a4a5",
+    "c4c3",
+    "a2c2",
+    "c3c2",
+    "d2d3",
+    "c2c1",
+    "a5a6",
+    "a7a6",
+    "i5i6",
+    "i7i6"
+   ],
+   "proof": {
+    "toMove": "attacker",
+    "children": [
+     {
+      "move": "i1h1",
+      "replies": [
+       {
+        "move": "h3h1",
+        "replies": [
+         {
+          "move": "a1a2",
+          "replies": [
+           {
+            "move": "h1g1",
+            "replies": [
+             {
+              "move": "d1d2",
+              "replies": [
+               {
+                "move": "g1c1",
+                "replies": [
+                 {
+                  "move": "b1c3",
+                  "replies": [
+                   {
+                    "move": "c1c3",
+                    "replies": [
+                     {
+                      "move": "a2a1",
+                      "replies": [
+                       {
+                        "move": "c3c4",
+                        "replies": [
+                         {
+                          "move": "a4a5",
+                          "replies": [
+                           {
+                            "move": "c4e4",
+                            "replies": [
+                             {
+                              "move": "a1b1",
+                              "replies": [
+                               {
+                                "move": "e4g4",
+                                "replies": [
+                                 {
+                                  "move": "b1b8",
+                                  "replies": [
+                                   {
+                                    "move": "g4i4",
+                                    "replies": [
+                                     {
+                                      "move": "a5a6",
+                                      "replies": [
+                                       {
+                                        "move": "a7a6",
+                                        "replies": [
+                                         {
+                                          "move": "b8e8",
+                                          "replies": [
+                                           {
+                                            "move": "c10e8",
+                                            "replies": []
+                                           },
+                                           {
+                                            "move": "g10e8",
+                                            "replies": []
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               },
+               {
+                "move": "g1g4",
+                "replies": [
+                 {
+                  "move": "i4i5",
+                  "replies": [
+                   {
+                    "move": "g4e4",
+                    "replies": [
+                     {
+                      "move": "b1c3",
+                      "replies": [
+                       {
+                        "move": "e4c4",
+                        "replies": [
+                         {
+                          "move": "a4a5",
+                          "replies": [
+                           {
+                            "move": "c4c3",
+                            "replies": [
+                             {
+                              "move": "a2c2",
+                              "replies": [
+                               {
+                                "move": "c3c2",
+                                "replies": [
+                                 {
+                                  "move": "d2d3",
+                                  "replies": [
+                                   {
+                                    "move": "c2c1",
+                                    "replies": [
+                                     {
+                                      "move": "a5a6",
+                                      "replies": [
+                                       {
+                                        "move": "a7a6",
+                                        "replies": [
+                                         {
+                                          "move": "i5i6",
+                                          "replies": [
+                                           {
+                                            "move": "i7i6",
+                                            "replies": []
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "leaf": 5,
+   "exitPly": 10,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 i1g1 a10c10",
+   "attacker": "black",
+   "result": "unknown",
+   "why": "budget of 1000000 nodes exhausted (pn 992, dn 135)",
+   "nodes": 1000022
+  },
+  {
+   "leaf": 6,
+   "exitPly": 11,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 c10g10 g1c1 g10i10",
+   "attacker": "red",
+   "result": "unknown",
+   "why": "budget of 1000000 nodes exhausted (pn 32, dn 2994)",
+   "nodes": 1000015
+  },
+  {
+   "leaf": 8,
+   "exitPly": 14,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 c10g10 g1c1 g10a10 c1i1 a10h10 i10h10",
+   "attacker": "red",
+   "result": "proven",
+   "why": "proof tree of 32 nodes",
+   "nodes": 1909,
+   "proofSize": 32,
+   "line": [
+    "a1a2",
+    "h10h3",
+    "b1c3",
+    "h3c3",
+    "e1f1",
+    "c3c4",
+    "a4a5",
+    "c4e4",
+    "f1f2",
+    "e4g4",
+    "a2d2",
+    "g4i4",
+    "d2d4",
+    "i4d4",
+    "a5a6",
+    "a7a6"
+   ],
+   "proof": {
+    "toMove": "attacker",
+    "children": [
+     {
+      "move": "a1a2",
+      "replies": [
+       {
+        "move": "i1b1",
+        "replies": [
+         {
+          "move": "e1f1",
+          "replies": [
+           {
+            "move": "h10h3",
+            "replies": [
+             {
+              "move": "a2a3",
+              "replies": [
+               {
+                "move": "h3a3",
+                "replies": [
+                 {
+                  "move": "f1e1",
+                  "replies": [
+                   {
+                    "move": "a3a4",
+                    "replies": [
+                     {
+                      "move": "e1f1",
+                      "replies": [
+                       {
+                        "move": "a4c4",
+                        "replies": [
+                         {
+                          "move": "f1e1",
+                          "replies": [
+                           {
+                            "move": "c4e4",
+                            "replies": [
+                             {
+                              "move": "e1f1",
+                              "replies": [
+                               {
+                                "move": "e4g4",
+                                "replies": [
+                                 {
+                                  "move": "f1e1",
+                                  "replies": [
+                                   {
+                                    "move": "g4i4",
+                                    "replies": []
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "move": "h10h3",
+        "replies": [
+         {
+          "move": "b1c3",
+          "replies": [
+           {
+            "move": "h3c3",
+            "replies": [
+             {
+              "move": "e1f1",
+              "replies": [
+               {
+                "move": "c3c4",
+                "replies": [
+                 {
+                  "move": "a4a5",
+                  "replies": [
+                   {
+                    "move": "c4e4",
+                    "replies": [
+                     {
+                      "move": "f1f2",
+                      "replies": [
+                       {
+                        "move": "e4g4",
+                        "replies": [
+                         {
+                          "move": "a2d2",
+                          "replies": [
+                           {
+                            "move": "g4i4",
+                            "replies": [
+                             {
+                              "move": "d2d4",
+                              "replies": [
+                               {
+                                "move": "i4d4",
+                                "replies": [
+                                 {
+                                  "move": "a5a6",
+                                  "replies": [
+                                   {
+                                    "move": "a7a6",
+                                    "replies": []
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "leaf": 9,
+   "exitPly": 12,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 c10g10 g1c1 g10a10 c1a1",
+   "attacker": "red",
+   "result": "proven",
+   "why": "proof tree of 19 nodes",
+   "nodes": 262,
+   "proofSize": 19,
+   "line": [
+    "b1c3",
+    "a1i1",
+    "a10h10",
+    "i10h10",
+    "e1f1",
+    "h10h3",
+    "f1e1",
+    "h3c3",
+    "e1f1",
+    "c3c4",
+    "a4a5",
+    "c4e4",
+    "f1f2",
+    "e4g4",
+    "f2e2",
+    "g4i4",
+    "a5a6",
+    "a7a6"
+   ],
+   "proof": {
+    "toMove": "attacker",
+    "children": [
+     {
+      "move": "b1c3",
+      "replies": [
+       {
+        "move": "a1i1",
+        "replies": [
+         {
+          "move": "a10h10",
+          "replies": [
+           {
+            "move": "i10h10",
+            "replies": [
+             {
+              "move": "e1f1",
+              "replies": [
+               {
+                "move": "h10h3",
+                "replies": [
+                 {
+                  "move": "f1e1",
+                  "replies": [
+                   {
+                    "move": "h3c3",
+                    "replies": [
+                     {
+                      "move": "e1f1",
+                      "replies": [
+                       {
+                        "move": "c3c4",
+                        "replies": [
+                         {
+                          "move": "a4a5",
+                          "replies": [
+                           {
+                            "move": "c4e4",
+                            "replies": [
+                             {
+                              "move": "f1f2",
+                              "replies": [
+                               {
+                                "move": "e4g4",
+                                "replies": [
+                                 {
+                                  "move": "f2e2",
+                                  "replies": [
+                                   {
+                                    "move": "g4i4",
+                                    "replies": [
+                                     {
+                                      "move": "a5a6",
+                                      "replies": [
+                                       {
+                                        "move": "a7a6",
+                                        "replies": []
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "leaf": 10,
+   "exitPly": 11,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1b1 a1b1 a10c10 b1b8",
+   "attacker": "black",
+   "result": "proven",
+   "why": "proof tree of 19 nodes",
+   "nodes": 627,
+   "proofSize": 19,
+   "line": [
+    "c10c8",
+    "b8c8",
+    "a7a6",
+    "c8c7",
+    "e7e6",
+    "c7g7",
+    "g10i8",
+    "g7i7",
+    "i8g10",
+    "i7i10",
+    "e10f10",
+    "i10h10",
+    "f10f9",
+    "h10g10",
+    "a6a5",
+    "a4a5",
+    "e6e5",
+    "e4e5"
+   ],
+   "proof": {
+    "toMove": "attacker",
+    "children": [
+     {
+      "move": "c10c8",
+      "replies": [
+       {
+        "move": "b8c8",
+        "replies": [
+         {
+          "move": "a7a6",
+          "replies": [
+           {
+            "move": "c8c7",
+            "replies": [
+             {
+              "move": "e7e6",
+              "replies": [
+               {
+                "move": "c7g7",
+                "replies": [
+                 {
+                  "move": "g10i8",
+                  "replies": [
+                   {
+                    "move": "g7i7",
+                    "replies": [
+                     {
+                      "move": "i8g10",
+                      "replies": [
+                       {
+                        "move": "i7i10",
+                        "replies": [
+                         {
+                          "move": "e10f10",
+                          "replies": [
+                           {
+                            "move": "i10h10",
+                            "replies": [
+                             {
+                              "move": "f10f9",
+                              "replies": [
+                               {
+                                "move": "h10g10",
+                                "replies": [
+                                 {
+                                  "move": "a6a5",
+                                  "replies": [
+                                   {
+                                    "move": "a4a5",
+                                    "replies": [
+                                     {
+                                      "move": "e6e5",
+                                      "replies": [
+                                       {
+                                        "move": "e4e5",
+                                        "replies": []
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "leaf": 11,
+   "exitPly": 9,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 a10c10 e1d1",
+   "attacker": "black",
+   "result": "unknown",
+   "why": "budget of 1000000 nodes exhausted (pn 75, dn 1800)",
+   "nodes": 1000002
+  },
+  {
+   "leaf": 12,
+   "exitPly": 6,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 e10f10",
+   "attacker": "red",
+   "result": "proven",
+   "why": "proof tree of 69 nodes",
+   "nodes": 142487,
+   "proofSize": 69,
+   "line": [
+    "d1e2",
+    "f1c1",
+    "g1e3",
+    "c1a1",
+    "b1c3",
+    "a1i1",
+    "e3c1",
+    "i1c1",
+    "e1d1",
+    "c1c4",
+    "d1e1",
+    "c4g4",
+    "c3b1",
+    "g4a4",
+    "e2f1",
+    "a4i4",
+    "h3b3",
+    "b8b1",
+    "b3b6",
+    "b1f1",
+    "b6e6",
+    "e7e6",
+    "e4e5",
+    "e6e5"
+   ],
+   "proof": {
+    "toMove": "attacker",
+    "children": [
+     {
+      "move": "d1e2",
+      "replies": [
+       {
+        "move": "f1i1",
+        "replies": [
+         {
+          "move": "e2f1",
+          "replies": [
+           {
+            "move": "i1f1",
+            "replies": [
+             {
+              "move": "a1a2",
+              "replies": [
+               {
+                "move": "f1c1",
+                "replies": [
+                 {
+                  "move": "b1a3",
+                  "replies": [
+                   {
+                    "move": "c1g1",
+                    "replies": [
+                     {
+                      "move": "a2a1",
+                      "replies": [
+                       {
+                        "move": "g1a1",
+                        "replies": [
+                         {
+                          "move": "e1d1",
+                          "replies": [
+                           {
+                            "move": "a1a4",
+                            "replies": [
+                             {
+                              "move": "d1e1",
+                              "replies": [
+                               {
+                                "move": "a4e4",
+                                "replies": [
+                                 {
+                                  "move": "a3b1",
+                                  "replies": [
+                                   {
+                                    "move": "e4i4",
+                                    "replies": [
+                                     {
+                                      "move": "h3f3",
+                                      "replies": [
+                                       {
+                                        "move": "i4c4",
+                                        "replies": [
+                                         {
+                                          "move": "f3f4",
+                                          "replies": [
+                                           {
+                                            "move": "c4g4",
+                                            "replies": [
+                                             {
+                                              "move": "f4b4",
+                                              "replies": [
+                                               {
+                                                "move": "b8b1",
+                                                "replies": [
+                                                 {
+                                                  "move": "b4b10",
+                                                  "replies": [
+                                                   {
+                                                    "move": "a10b10",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "move": "f1c1",
+        "replies": [
+         {
+          "move": "g1e3",
+          "replies": [
+           {
+            "move": "c1i1",
+            "replies": [
+             {
+              "move": "b1c3",
+              "replies": [
+               {
+                "move": "i1a1",
+                "replies": [
+                 {
+                  "move": "e2f1",
+                  "replies": [
+                   {
+                    "move": "a1f1",
+                    "replies": [
+                     {
+                      "move": "e3c1",
+                      "replies": [
+                       {
+                        "move": "f1c1",
+                        "replies": [
+                         {
+                          "move": "e1d1",
+                          "replies": [
+                           {
+                            "move": "c1c4",
+                            "replies": [
+                             {
+                              "move": "d1e1",
+                              "replies": [
+                               {
+                                "move": "c4g4",
+                                "replies": [
+                                 {
+                                  "move": "c3d5",
+                                  "replies": [
+                                   {
+                                    "move": "g4a4",
+                                    "replies": [
+                                     {
+                                      "move": "d5e7",
+                                      "replies": [
+                                       {
+                                        "move": "a4i4",
+                                        "replies": [
+                                         {
+                                          "move": "h3h4",
+                                          "replies": [
+                                           {
+                                            "move": "i4e4",
+                                            "replies": [
+                                             {
+                                              "move": "e7g8",
+                                              "replies": [
+                                               {
+                                                "move": "h10g8",
+                                                "replies": [
+                                                 {
+                                                  "move": "h4h8",
+                                                  "replies": [
+                                                   {
+                                                    "move": "b8h8",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "move": "c1a1",
+            "replies": [
+             {
+              "move": "b1c3",
+              "replies": [
+               {
+                "move": "a1i1",
+                "replies": [
+                 {
+                  "move": "e3c1",
+                  "replies": [
+                   {
+                    "move": "i1c1",
+                    "replies": [
+                     {
+                      "move": "e1d1",
+                      "replies": [
+                       {
+                        "move": "c1c4",
+                        "replies": [
+                         {
+                          "move": "d1e1",
+                          "replies": [
+                           {
+                            "move": "c4g4",
+                            "replies": [
+                             {
+                              "move": "c3b1",
+                              "replies": [
+                               {
+                                "move": "g4a4",
+                                "replies": [
+                                 {
+                                  "move": "e2f1",
+                                  "replies": [
+                                   {
+                                    "move": "a4i4",
+                                    "replies": [
+                                     {
+                                      "move": "h3b3",
+                                      "replies": [
+                                       {
+                                        "move": "b8b1",
+                                        "replies": [
+                                         {
+                                          "move": "b3b6",
+                                          "replies": [
+                                           {
+                                            "move": "b1f1",
+                                            "replies": [
+                                             {
+                                              "move": "b6e6",
+                                              "replies": [
+                                               {
+                                                "move": "e7e6",
+                                                "replies": [
+                                                 {
+                                                  "move": "e4e5",
+                                                  "replies": [
+                                                   {
+                                                    "move": "e6e5",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "leaf": 13,
+   "exitPly": 5,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10a10",
+   "attacker": "black",
+   "result": "proven",
+   "why": "proof tree of 99 nodes",
+   "nodes": 15668,
+   "proofSize": 99,
+   "line": [
+    "b8b10",
+    "a10c10",
+    "f1d1",
+    "c10f10",
+    "d1b1",
+    "a1b1",
+    "e10f10",
+    "b1b10",
+    "f10f9",
+    "b10g10",
+    "h10g8",
+    "g10g8",
+    "a7a6",
+    "g8g7",
+    "i7i6",
+    "g7e7",
+    "f9f10",
+    "e7c7",
+    "a6a5",
+    "a4a5",
+    "i6i5",
+    "i4i5",
+    "i10i5",
+    "i1i5"
+   ],
+   "proof": {
+    "toMove": "attacker",
+    "children": [
+     {
+      "move": "b8b10",
+      "replies": [
+       {
+        "move": "e1f1",
+        "replies": [
+         {
+          "move": "a7a6",
+          "replies": [
+           {
+            "move": "a10c10",
+            "replies": [
+             {
+              "move": "b10b9",
+              "replies": [
+               {
+                "move": "c10f10",
+                "replies": [
+                 {
+                  "move": "g10i8",
+                  "replies": [
+                   {
+                    "move": "f10i10",
+                    "replies": [
+                     {
+                      "move": "i8g10",
+                      "replies": [
+                       {
+                        "move": "i10g10",
+                        "replies": [
+                         {
+                          "move": "a6a5",
+                          "replies": [
+                           {
+                            "move": "a4a5",
+                            "replies": [
+                             {
+                              "move": "h10g8",
+                              "replies": [
+                               {
+                                "move": "g10g7",
+                                "replies": [
+                                 {
+                                  "move": "g8h10",
+                                  "replies": [
+                                   {
+                                    "move": "g7c7",
+                                    "replies": [
+                                     {
+                                      "move": "b9d9",
+                                      "replies": [
+                                       {
+                                        "move": "c7i7",
+                                        "replies": [
+                                         {
+                                          "move": "d9h9",
+                                          "replies": [
+                                           {
+                                            "move": "h3h10",
+                                            "replies": [
+                                             {
+                                              "move": "h9h7",
+                                              "replies": [
+                                               {
+                                                "move": "i7e7",
+                                                "replies": [
+                                                 {
+                                                  "move": "h7h1",
+                                                  "replies": [
+                                                   {
+                                                    "move": "i1h1",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "move": "a10c10",
+        "replies": [
+         {
+          "move": "f1d1",
+          "replies": [
+           {
+            "move": "e1d1",
+            "replies": [
+             {
+              "move": "b10a10",
+              "replies": [
+               {
+                "move": "c10f10",
+                "replies": [
+                 {
+                  "move": "a10a4",
+                  "replies": [
+                   {
+                    "move": "a1a4",
+                    "replies": [
+                     {
+                      "move": "e10f10",
+                      "replies": [
+                       {
+                        "move": "a4a7",
+                        "replies": [
+                         {
+                          "move": "c7c6",
+                          "replies": [
+                           {
+                            "move": "a7e7",
+                            "replies": [
+                             {
+                              "move": "i7i6",
+                              "replies": [
+                               {
+                                "move": "e7g7",
+                                "replies": [
+                                 {
+                                  "move": "f10f9",
+                                  "replies": [
+                                   {
+                                    "move": "g7g10",
+                                    "replies": [
+                                     {
+                                      "move": "h10i8",
+                                      "replies": [
+                                       {
+                                        "move": "g10i10",
+                                        "replies": [
+                                         {
+                                          "move": "i8h6",
+                                          "replies": [
+                                           {
+                                            "move": "i10i6",
+                                            "replies": [
+                                             {
+                                              "move": "h6g4",
+                                              "replies": [
+                                               {
+                                                "move": "i6c6",
+                                                "replies": [
+                                                 {
+                                                  "move": "g4h6",
+                                                  "replies": [
+                                                   {
+                                                    "move": "c6h6",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   },
+                   {
+                    "move": "f10h10",
+                    "replies": [
+                     {
+                      "move": "i10h10",
+                      "replies": [
+                       {
+                        "move": "a1a4",
+                        "replies": [
+                         {
+                          "move": "h10h3",
+                          "replies": [
+                           {
+                            "move": "a4a7",
+                            "replies": [
+                             {
+                              "move": "h3g3",
+                              "replies": [
+                               {
+                                "move": "a7c7",
+                                "replies": [
+                                 {
+                                  "move": "g3g1",
+                                  "replies": [
+                                   {
+                                    "move": "i1g1",
+                                    "replies": [
+                                     {
+                                      "move": "e7e6",
+                                      "replies": [
+                                       {
+                                        "move": "c7g7",
+                                        "replies": [
+                                         {
+                                          "move": "g10i8",
+                                          "replies": [
+                                           {
+                                            "move": "g7i7",
+                                            "replies": [
+                                             {
+                                              "move": "e10f10",
+                                              "replies": [
+                                               {
+                                                "move": "i7i8",
+                                                "replies": [
+                                                 {
+                                                  "move": "e6e5",
+                                                  "replies": [
+                                                   {
+                                                    "move": "e4e5",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           },
+           {
+            "move": "c10f10",
+            "replies": [
+             {
+              "move": "d1b1",
+              "replies": [
+               {
+                "move": "a1b1",
+                "replies": [
+                 {
+                  "move": "e10f10",
+                  "replies": [
+                   {
+                    "move": "b1b10",
+                    "replies": [
+                     {
+                      "move": "f10f9",
+                      "replies": [
+                       {
+                        "move": "b10g10",
+                        "replies": [
+                         {
+                          "move": "h10g8",
+                          "replies": [
+                           {
+                            "move": "g10i10",
+                            "replies": [
+                             {
+                              "move": "i7i6",
+                              "replies": [
+                               {
+                                "move": "i10i6",
+                                "replies": [
+                                 {
+                                  "move": "a7a6",
+                                  "replies": [
+                                   {
+                                    "move": "i6a6",
+                                    "replies": [
+                                     {
+                                      "move": "c7c6",
+                                      "replies": [
+                                       {
+                                        "move": "a6c6",
+                                        "replies": [
+                                         {
+                                          "move": "e7e6",
+                                          "replies": [
+                                           {
+                                            "move": "c6e6",
+                                            "replies": [
+                                             {
+                                              "move": "g7g6",
+                                              "replies": [
+                                               {
+                                                "move": "e6g6",
+                                                "replies": [
+                                                 {
+                                                  "move": "g8h6",
+                                                  "replies": [
+                                                   {
+                                                    "move": "g6h6",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           },
+                           {
+                            "move": "g10g8",
+                            "replies": [
+                             {
+                              "move": "a7a6",
+                              "replies": [
+                               {
+                                "move": "g8g7",
+                                "replies": [
+                                 {
+                                  "move": "i7i6",
+                                  "replies": [
+                                   {
+                                    "move": "g7e7",
+                                    "replies": [
+                                     {
+                                      "move": "f9f10",
+                                      "replies": [
+                                       {
+                                        "move": "e7c7",
+                                        "replies": [
+                                         {
+                                          "move": "a6a5",
+                                          "replies": [
+                                           {
+                                            "move": "a4a5",
+                                            "replies": [
+                                             {
+                                              "move": "i6i5",
+                                              "replies": [
+                                               {
+                                                "move": "i4i5",
+                                                "replies": [
+                                                 {
+                                                  "move": "i10i5",
+                                                  "replies": [
+                                                   {
+                                                    "move": "i1i5",
+                                                    "replies": []
+                                                   }
+                                                  ]
+                                                 }
+                                                ]
+                                               }
+                                              ]
+                                             }
+                                            ]
+                                           }
+                                          ]
+                                         }
+                                        ]
+                                       }
+                                      ]
+                                     }
+                                    ]
+                                   }
+                                  ]
+                                 }
+                                ]
+                               }
+                              ]
+                             }
+                            ]
+                           }
+                          ]
+                         }
+                        ]
+                       }
+                      ]
+                     }
+                    ]
+                   }
+                  ]
+                 }
+                ]
+               }
+              ]
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "leaf": 15,
+   "exitPly": 4,
+   "opening": "b3b10 a10b10 h3h10 i10h10",
+   "attacker": "black",
+   "result": "unknown",
+   "why": "budget of 1000000 nodes exhausted (pn 756, dn 245)",
+   "nodes": 1000016
+  }
+ ]
+}

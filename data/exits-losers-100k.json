@@ -1,0 +1,201 @@
+{
+ "nodes": 100000,
+ "rules": [
+  "flavour=losers",
+  "facing=file"
+ ],
+ "rows": [
+  {
+   "leaf": 0,
+   "exitPly": 4,
+   "opening": "b3b10 h8h1 i1h1 a10b10",
+   "plies": 141,
+   "afterExit": 137,
+   "winner": null,
+   "reason": "progress-clock",
+   "red": 2,
+   "black": 5,
+   "cls": "stall, equal"
+  },
+  {
+   "leaf": 1,
+   "exitPly": 6,
+   "opening": "b3b10 h8h1 b10d10 h1f1 e1f1 e10d10",
+   "plies": 87,
+   "afterExit": 81,
+   "winner": "black",
+   "reason": "bare-general",
+   "red": 6,
+   "black": 1,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 2,
+   "exitPly": 6,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1i1",
+   "plies": 30,
+   "afterExit": 24,
+   "winner": "red",
+   "reason": "bare-general",
+   "red": 1,
+   "black": 10,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 3,
+   "exitPly": 8,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 e1d1 e10f10",
+   "plies": 34,
+   "afterExit": 26,
+   "winner": "red",
+   "reason": "checkmate",
+   "red": 6,
+   "black": 9,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 4,
+   "exitPly": 10,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10h10 i10h10 e1d1 h10h3",
+   "plies": 28,
+   "afterExit": 18,
+   "winner": "red",
+   "reason": "checkmate",
+   "red": 2,
+   "black": 11,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 5,
+   "exitPly": 10,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 i1g1 a10c10",
+   "plies": 81,
+   "afterExit": 71,
+   "winner": "black",
+   "reason": "bare-general",
+   "red": 2,
+   "black": 1,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 6,
+   "exitPly": 11,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 c10g10 g1c1 g10i10",
+   "plies": 32,
+   "afterExit": 21,
+   "winner": "red",
+   "reason": "bare-general",
+   "red": 1,
+   "black": 7,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 7,
+   "exitPly": 18,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 c10g10 g1c1 g10a10 c1i1 a10h10 i1b1 a1b1 i10h10 b1b8 h10h3",
+   "plies": 54,
+   "afterExit": 36,
+   "winner": null,
+   "reason": "repetition",
+   "red": 7,
+   "black": 6,
+   "cls": "stall, equal"
+  },
+  {
+   "leaf": 8,
+   "exitPly": 14,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 c10g10 g1c1 g10a10 c1i1 a10h10 i10h10",
+   "plies": 30,
+   "afterExit": 16,
+   "winner": "red",
+   "reason": "bare-general",
+   "red": 1,
+   "black": 9,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 9,
+   "exitPly": 12,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1g1 c10g10 g1c1 g10a10 c1a1",
+   "plies": 30,
+   "afterExit": 18,
+   "winner": "red",
+   "reason": "bare-general",
+   "red": 1,
+   "black": 9,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 10,
+   "exitPly": 11,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 d1b1 a1b1 a10c10 b1b8",
+   "plies": 29,
+   "afterExit": 18,
+   "winner": "black",
+   "reason": "bare-general",
+   "red": 10,
+   "black": 1,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 11,
+   "exitPly": 9,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 f1d1 f10c10 a10c10 e1d1",
+   "plies": 35,
+   "afterExit": 26,
+   "winner": "black",
+   "reason": "bare-general",
+   "red": 10,
+   "black": 1,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 12,
+   "exitPly": 6,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10f10 e10f10",
+   "plies": 30,
+   "afterExit": 24,
+   "winner": "red",
+   "reason": "bare-general",
+   "red": 1,
+   "black": 12,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 13,
+   "exitPly": 5,
+   "opening": "b3b10 h8h1 b10d10 h1f1 d10a10",
+   "plies": 29,
+   "afterExit": 24,
+   "winner": "black",
+   "reason": "bare-general",
+   "red": 11,
+   "black": 1,
+   "cls": "stall, on count"
+  },
+  {
+   "leaf": 14,
+   "exitPly": 5,
+   "opening": "b3b10 h8h1 b10d10 e10d10 i1h1",
+   "plies": 170,
+   "afterExit": 165,
+   "winner": null,
+   "reason": "progress-clock",
+   "red": 4,
+   "black": 5,
+   "cls": "stall, equal"
+  },
+  {
+   "leaf": 15,
+   "exitPly": 4,
+   "opening": "b3b10 a10b10 h3h10 i10h10",
+   "plies": 151,
+   "afterExit": 147,
+   "winner": "black",
+   "reason": "bare-general",
+   "red": 2,
+   "black": 1,
+   "cls": "stall, on count"
+  }
+ ]
+}
