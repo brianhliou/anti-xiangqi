@@ -1,6 +1,10 @@
 # Anti xiangqi
 
-Antichess on the xiangqi board: if you can capture you must, you win by losing every piece, the general is an ordinary piece. Measured before it was designed, and it is a draw. The write-up is at [brianhliou.com/posts/anti-xiangqi](https://brianhliou.com/posts/anti-xiangqi/); this repository is everything the write-up rests on, in the form it was produced, so the claims can be checked without trusting the engine or the author.
+**Write-up: [Anti Xiangqi Is a Draw](https://brianhliou.com/posts/anti-xiangqi/)** — with every engine game in a viewer, the opening as a table, and the 1,864-position proof you can play against. Short account on [Mistboard](https://mistboard.com/blog/anti-xiangqi).
+
+**Xiangqi variant studies:** [benedict-xiangqi](https://github.com/brianhliou/benedict-xiangqi) (killed: the first mover wins 78%) · [anti-xiangqi](https://github.com/brianhliou/anti-xiangqi) (a draw, 63 losing openings proven) · Duck Xiangqi ([live on Mistboard](https://mistboard.com/rules/duck-xiangqi), the one that shipped). Each is measured before it is designed; the write-ups are on brianhliou.com.
+
+Antichess on the xiangqi board: if you can capture you must, you win by losing every piece, the general is an ordinary piece. Measured before it was designed, and it is a draw. This repository is everything the write-up rests on, in the form it was produced, so the claims can be checked without trusting the engine or the author.
 
 The verdict in three lines. The opening is a chain of forced captures; Black has two moves to find in it (1...Cxh1, and 2...Kxd10 if Red plays 2. Cxd10) and Red cannot go wrong. Every other opening loses, and 63 of the 70 losing endings carry a proof a checker has replayed against the rules. After the chain the game is a draw in every engine game: the pieces you must lose sit in the palace, where nothing can reach them unless the opponent chooses to let it.
 
