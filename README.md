@@ -2,7 +2,7 @@
 
 **Write-up: [Anti Xiangqi Is a Draw](https://brianhliou.com/posts/anti-xiangqi/)** — with every engine game in a viewer, the opening as a table, and the 1,864-position proof you can play against. Short account on [Mistboard](https://mistboard.com/blog/anti-xiangqi).
 
-**Xiangqi variant studies:** [benedict-xiangqi](https://github.com/brianhliou/benedict-xiangqi) (killed: the first mover wins 78%) · [anti-xiangqi](https://github.com/brianhliou/anti-xiangqi) (a draw, 63 losing openings proven) · Duck Xiangqi ([live on Mistboard](https://mistboard.com/rules/duck-xiangqi), the one that shipped). Each is measured before it is designed; the write-ups are on brianhliou.com.
+**Xiangqi variant studies:** [benedict-xiangqi](https://github.com/brianhliou/benedict-xiangqi) (killed: the first mover wins 78%) · [anti-xiangqi](https://github.com/brianhliou/anti-xiangqi) (a draw, 63 losing openings proven) · [horde-xiangqi](https://github.com/brianhliou/horde-xiangqi) (killed: the river is a cliff) · Duck Xiangqi ([live on Mistboard](https://mistboard.com/rules/duck-xiangqi), the one that shipped). Each is measured before it is designed; the write-ups are on brianhliou.com.
 
 Antichess on the xiangqi board: if you can capture you must, you win by losing every piece, the general is an ordinary piece. Measured before it was designed, and it is a draw. This repository is everything the write-up rests on, in the form it was produced, so the claims can be checked without trusting the engine or the author.
 
